@@ -65,7 +65,16 @@ body {
 }
 
 /* TODO Fix CSS of Social Networks */
-.social-network-ico-link {
+.card-main {
+    display: flex;
+    height: 70px;
+    width: 350px;
+}
+
+.social-network-ico-link-git,
+.social-network-ico-link-linkedin,
+.social-network-ico-link-x
+{
     color: white;
     text-decoration: none;
 }
@@ -75,7 +84,30 @@ body {
     width: 100px;
 }
 
+.social-network-ico-link-git:hover,
+.social-network-ico-link-linkedin:hover,
+.social-network-ico-link-x:hover
+{
+    animation: bounce_613 0.4s linear;
+}
 
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .social-network {
     display: flex;
