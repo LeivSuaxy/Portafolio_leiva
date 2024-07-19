@@ -161,6 +161,24 @@ body {
         margin-top: 2%;
         width: 100%;
     }
-
 }
+
+@media (max-width: 320px) {
+    .social-network-ico {
+        height: 20px;
+        width: 50px;
+    }
+    .profile-image {
+        width: 75px;
+        height: auto;
+        border-radius: 50%;
+    }
+    .main {
+        border: none;
+        margin-top: 2%;
+        width: 100%;
+    }
+}
+
+
 
