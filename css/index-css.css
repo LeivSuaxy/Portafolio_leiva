@@ -4,8 +4,8 @@ html {
 
 body {
     min-height: 100%;
-    background: linear-gradient(to bottom, #2b3035, rgba(43, 48, 53, 0.84));
-    color: white;
+    background: rgba(203, 203, 203, 0.74);
+    color: black;
 }
 
 .profile-image {
@@ -48,6 +48,7 @@ body {
 }
 
 .main-footer-first {
+    color: #dddddd;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     background-color: #191d1e;
