@@ -38,8 +38,73 @@ body {
     font-family: "JetBrains Mono", Arial, serif;
 }
 
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.main-footer-first {
+    background-color: #191d1e;
+}
+
+.main-footer-second {
+    padding: 1%;
+    background-color: black;
+}
+
+/* TODO Fix CSS of Social Networks */
+.github-icon {
+    background-image: url('/ico/github.svg');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+    background-image: url('/ico/linkedin.svg');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.x-icon {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-network {
+    float: right;
+}
+
 #changing-text {
     animation: change-text 5s infinite;
+}
+
+#copyright {
+    font-size: 12px;
+    color: #ddd;
+}
+
+#designed {
+    text-decoration: none;
+    font-size: 12px;
+    color: #dddddd;
+}
+
+#designed a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+#designed a:hover {
+    color: rgba(246, 87, 26, 0.84);
 }
 
 @keyframes change-text {
