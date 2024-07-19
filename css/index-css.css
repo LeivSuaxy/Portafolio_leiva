@@ -156,6 +156,11 @@ body {
         height: auto;
         border-radius: 50%;
     }
+    .main {
+        border: none;
+        margin-top: 2%;
+        width: 100%;
+    }
 
 }
 
