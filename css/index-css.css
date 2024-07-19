@@ -9,78 +9,79 @@ body {
 }
 
 .profile-image {
-    width: 150px;
+    width: 300px;
     height: auto;
     border-radius: 50%;
 }
 
 .main {
+    border: rgba(0, 0, 0, 0.13) 2px solid;
+    border-radius: 12px;
     margin-top: 2%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-main {
-    border: black;
-    border-radius: 12px;
-}
-
 .image-container-info {
+    display: flex;
     margin: 1%;
 }
 
-.articulo {
-    margin-left: 1%;
-    display: flex;
+.perf-image {
+    margin: 1%;
     float: left;
+}
+
+.articulo {
+    margin: 1%;
+    display: flex;
     font-size: 20px;
     font-family: "JetBrains Mono", Arial, serif;
 }
 
 .main-footer {
-    position: fixed;
+    margin-top: 2%;
     bottom: 0;
     width: 100%;
 
 }
 
 .main-footer-first {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     background-color: #191d1e;
 }
 
 .main-footer-second {
     padding: 1%;
-    background-color: black;
+    background: #0d0d0d;
 }
 
 /* TODO Fix CSS of Social Networks */
-.github-icon {
-    background-image: url('/ico/github.svg');
-    height: 50px;
-    width: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.linkedin-icon {
-    background-image: url('/ico/linkedin.svg');
-    height: 50px;
-    width: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.x-icon {
+.social-network-ico-link {
     color: white;
-    height: 50px;
-    width: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.social-network-ico {
+    height: 45px;
+    width: 100px;
+}
+
+@media (max-width: 720px) {
+    .social-network-ico {
+        height: 20px;
+        width: 50px;
+    }
+
 }
 
 .social-network {
+    display: flex;
+    justify-content: space-between;
     float: right;
+    list-style: none;
 }
 
 #changing-text {
