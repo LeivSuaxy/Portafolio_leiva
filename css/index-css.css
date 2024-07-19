@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, #2b3035, rgba(43, 48, 53, 0.84));
+    color: white;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.main {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-main {
+    border: black;
+    border-radius: 12px;
+}
+
+.image-container-info {
+    margin: 1%;
+}
+
+.articulo {
+    margin-left: 1%;
+    display: flex;
+    float: left;
+    font-size: 20px;
+    font-family: "JetBrains Mono", Arial, serif;
+}
+
+#changing-text {
+    animation: change-text 5s infinite;
+}
+
+@keyframes change-text {
+    0% { content: "Rotular"; }
+    50% { content: "Trabajo con Pladur"; }
+    100% { content: "Encuadernar motos"; }
+}
+
