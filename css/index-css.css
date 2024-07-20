@@ -155,6 +155,42 @@ body {
     height: auto;
 }
 
+.button-main {
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 5px 10px;
+    border-radius: 100px;
+    background: var(--backgrounds);
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--font-colors)
+}
+
+.button-main:hover {
+    background: #313131;
+}
+
+.button-main > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+.button-main:hover svg {
+  transform: translateX(5px);
+}
+
+.button-main:active {
+  transform: scale(0.95);
+}
+
+
 #changing-text {
     animation: change-text 5s infinite;
 }
