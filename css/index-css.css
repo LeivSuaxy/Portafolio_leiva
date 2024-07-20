@@ -1,7 +1,7 @@
 :root {
     --backgrounds: #0d0d0d;
     --font-colors: #e9c48f;
-    --body-background: rgba(203, 203, 203, 0.74);
+    --body-background: rgba(231, 231, 231, 0.95);
 }
 
 html {
@@ -190,6 +190,31 @@ body {
   transform: scale(0.95);
 }
 
+.line {
+    border-top: 2px solid black;
+    margin: 1%;
+}
+
+.img-container {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-in-out 0.5s;
+}
+
+.img-container img:hover {
+    width: 25%;
+}
 
 #changing-text {
     animation: change-text 5s infinite;
