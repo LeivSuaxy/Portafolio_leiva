@@ -228,6 +228,21 @@ body {
     margin-left: 1%;
 }
 
+.fade-in-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.explanation-span {
+    font-size: 9px;
+}
+
 #changing-text {
     animation: change-text 5s infinite;
 }
@@ -284,22 +299,29 @@ body {
         height: 20px;
         width: 50px;
     }
+
     .profile-image {
         width: 150px;
         height: auto;
         border-radius: 50%;
     }
+
     .main {
         border: none;
         margin-top: 2%;
         width: 100%;
     }
+
     .img-container {
         width: 70%;
         height: 300px;
         display: flex;
         justify-content: center;
         gap: 10px;
+    }
+
+    .img-container img:hover{
+        width: 35%;
     }
 }
 
@@ -308,22 +330,29 @@ body {
         height: 20px;
         width: 50px;
     }
+
     .profile-image {
         width: 75px;
         height: auto;
         border-radius: 50%;
     }
+
     .main {
         border: none;
         margin-top: 2%;
         width: 100%;
     }
+
     .img-container {
         width: 70%;
         height: 200px;
         display: flex;
         justify-content: center;
         gap: 10px;
+    }
+
+    .img-container img:hover{
+        width: 35%;
     }
 }
 
